@@ -69,6 +69,33 @@ export const asyncRoutes = [
         },
       },
       {
+        path: '/editor',
+        name: 'Editor',
+        component: () => import('@/views/editor/index.vue'),
+        meta: {
+          title: '文本编辑器',
+          icon: 'add-text',
+        },
+        children: [
+          {
+            path: '/wangEditor',
+            name: 'wangEditor',
+            component: () => import('@/views/editor/wangEditor.vue'),
+            meta: {
+              title: '富文本',
+            },
+          },
+          {
+            path: '/mdEditor',
+            name: 'MdEditor',
+            component: () => import('@/views/editor/mdEditor.vue'),
+            meta: {
+              title: 'Markdown',
+            },
+          },
+        ],
+      },
+      {
         path: '/chart',
         name: 'Chart',
         component: () => import('@/views/echarts/index.vue'),

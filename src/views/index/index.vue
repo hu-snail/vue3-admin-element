@@ -110,7 +110,6 @@
 
   import { CountTo } from 'vue3-count-to';
   import Echarts from '@/components/Echarts/index.vue';
-
   import packpage from '../../../package.json';
 
   import { useStore } from 'vuex';

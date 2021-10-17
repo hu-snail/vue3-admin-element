@@ -71,3 +71,7 @@ html {
     @include base-scrollbar;
   }
 }
+.page-container{
+  padding: $base-main-padding;
+  background-color: $base-color-white;
+}
