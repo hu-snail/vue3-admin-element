@@ -20,6 +20,10 @@
 提示：项目使用<script setup> 新语法编写，会有黄色警告信息，不用理会！！！
 
 在线预览地址：https://hu-snail.gitee.io/vue3-admin-element-template 
+  
+## vue3资源库
+一个收集vue3资源的网站，包含web端/移动端/小程序等
+在线预览地址：[vue3-resource](https://hu-snail.github.io/vue3-resource)
 
 ## 特性
 
